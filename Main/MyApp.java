@@ -20,7 +20,8 @@ public class MyApp
         System.out.print("나이를 입력해 주세요. >> ");
         int age = scanner.nextInt();
         scanner.close();
-        double fee = DVDPriceCalculate.offThePrice(price, old, age);
+        DVDPriceCalculate calc = new DVDPriceCalculate();
+        double fee = calc.offThePrice(price, old, age);
         System.out.println("할인 요금은 " + fee + "원입니다.");
     }
 }
