@@ -2,18 +2,18 @@ package Calculation;
 
 
 /**
- * DVD?š”ê¸ˆì„ ê³„ì‚°?•˜?Š” ?”„ë¡œê·¸?¨
+ * DVDìš”ê¸ˆì„ ê³„ì‚°í•˜ëŠ” í”„ë¡œê·¸ë¨
  * 
- * @author (2018315036 ?–‘?œ ?„,2018315003 ìµœì„¸?›, 2018315022 ?´ì§??—°) 
+ * @author (2018315036 ì–‘ìœ ì„,2018315003 ìµœì„¸ì›, 2018315022 ì´ì§€ì—°) 
  * @version (2020.06.10)
  */
 public class DVDPriceCalculate
 {
     /**
-     * offThePrice - DVD?š”ê¸ˆì„ ?• ?¸?•˜?Š” ë©”ì†Œ?“œ
+     * offThePrice - DVDìš”ê¸ˆì„ í• ì¸í•˜ëŠ” ë©”ì†Œë“œ
      * 
      * @param      price, age, old
-     * @return     18?„¸ ?´?•˜ price*0.9 / 65?„¸ ?´?ƒ price*0.8 / êµ¬ì‘ price*0.5 
+     * @return     18ì„¸ ì´í•˜ price*0.9 / 65ì„¸ ì´ìƒ price*0.8 / êµ¬ì‘ price*0.5 
      */
     public double offThePrice(double price, int age, int old)
     {
